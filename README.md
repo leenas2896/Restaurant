@@ -1,2 +1,135 @@
 # Restaurant
 A website for restaurant
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content = "IE=edge">
+<meta name = "viewport" content="width=device-width, initial-scale=1">
+<title>Santushti</title>
+<link rel="stylesheet" href="bootstrap-3.4.1-dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="bootstrap-3.4.1-dist/css/styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Niconne&family=Seaweed+Script&display=swap" rel="stylesheet">
+	</head>
+<body>
+	<header>
+		<nav id="header-nav" class ="navbar navbar-default">
+			<div class="container">
+				<div class ="navbar-header">
+					<a href="Restro.html" class="pull-left visible-md visible-lg">
+						<div id="logo-img" alt="Logo image"></div>
+					</a>
+					<div class="navbar-brand">
+						<a href="Restro.html"><h1> Santushti Masala Mantra</h1> </a>
+					</div>
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+
+				<div id="collapsable-nav" class="collapse navbar-collapse">
+					<ul id="nav-list" class="nav navbar-nav navbar-right">
+						<li class="visible-xs active">
+						<a href= "Restro.html">
+							<span class="glyphicon glyphicon-home"></span>Home</a>
+
+						</li>
+						<li>
+							<a href="menu-categories.html">
+								<span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu </a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs">About</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs">Awards</a>
+						</li>
+						<li id="phone" class="hidden-xs">
+							<a href="tel:443-529-5008">
+								<span>443-529-5008</span></a><div>*At your door</div>
+						</li>
+
+					</ul>
+
+			</div>
+		</nav>
+	</header>
+
+
+	<div id="call-btn" class="visible-xs">
+		<a class="btn" href="tel:443-529-5008">
+			<span class="glyphicon glyphicon-earphone"></span>
+			443-529-5008
+		</a>
+	</div>
+	<div id="xs-deliver" class="text-center visible-xs">At your door</div>
+
+
+	<div id="main-content" class="container">
+		<div class="jumbotron">
+			<img src="bootstrap-3.4.1-dist/images/picture_768.jpg"  class="img-responsive visible-xs" alt= "Picture of restaurant">
+		</div>
+
+		<div id="home-tiles" class="row">
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<a href="menu-categories.html"><div id="menu-tile"><span>
+				menu</span></div></a>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<a href="single-category.html"><div id="specials-tile"><span>
+				specials</span></div></a>
+			</div>
+
+		<div class="col-md-4 col-sm-12 col-xs-12">
+			<a href="https://goo.gl/maps/jmmGAK1AsboFuwcm9" target="blank">
+				<div id="map-tile">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.232886765995!2d81.33293641493529!3d21.182905585915034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a293cca2317c365%3A0x86850a4cb326d27d!2sSantushti%20Restaurant!5e0!3m2!1sen!2sus!4v1595976302917!5m2!1sen!2sus" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+					<span>map</span>
+				</div>
+			</a>
+		</div>
+	</div> 
+
+
+
+
+
+
+	<footer class="panel-footer">
+		<div class="container">
+			<div class="row">
+				<section id="hours" class="col-sm-4">
+					<span> Hours:</span><br>
+					Mon-Fri:10:00am-10:00pm<br>
+					Sat-Sun:10:00am-11:30pm<br>
+					<hr class="visible-xs">
+				</section>
+				<section id="address" class="col-sm-4">
+					<span> Address:</span><br>
+					Shop No-69, Zonal Market Road<br>
+					Sector-10, Bhilai, Chhattisgarh<br>
+					Pin-490006
+					<p>*Delivery area within 3-4km, with minimum order
+					of Rs.350 plus charge of Rs.50 for all deliveries.</p>
+					<hr class="visible-xs">
+				</section>
+				<section id="testimonials" class="col-sm-4">
+					<p> "Best Chicken Biryani I ever had!!"</p>
+					<p> "Amazing Food! Great service"</p>
+				</section>
+			</div>
+			<div class="text-center">&copy; Copyright Santushti Masala Mantra 2004
+			</div>
+		</div>
+	</footer>
+<script src="bootstrap-3.4.1-dist/js/jquery-2.1.4.js"></script>
+<script src="bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
